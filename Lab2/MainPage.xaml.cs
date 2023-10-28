@@ -1,6 +1,8 @@
 ﻿using System.Net.Http;
 using System.Xml;
 using System.Xml.Xsl;
+using System.IO;
+using System;
 
 namespace Lab2
 {
@@ -21,11 +23,11 @@ namespace Lab2
 
 		public ISearch Sax = new SAX();
 
-		public string XmlPath = "C:\\Users\\Pavel\\source\\repos\\Lab2\\Lab2\\XMLFile1.xml";
+		public string XmlPath = RootDir.Get("XMLFile1.xml");
 
-		public string XslPath = "C:\\Users\\Pavel\\source\\repos\\Lab2\\Lab2\\XSLTFile1.xslt";
+		public string XslPath = RootDir.Get("XSLTFile1.xslt");
 
-		public string HtmlPath = "C:\\Users\\Pavel\\source\\repos\\Lab2\\Lab2\\HTMLFile1.html";
+		public string HtmlPath = RootDir.Get("HTMLFile1.html");
 
 		public MainPage()
 		{
@@ -78,6 +80,9 @@ namespace Lab2
 
 		private void SaveHTMLButton_Clicked(object sender, EventArgs e)
 		{
+
+
+
 			XmlDocument xmlDoc = new XmlDocument();
 			xmlDoc.Load(XmlPath);
 
