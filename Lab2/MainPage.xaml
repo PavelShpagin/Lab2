@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab2.MainPage">
+
+    <StackLayout Padding="10" BackgroundColor="LightGrey">
+
+        <Label Text="Search Graduates" TextColor="Black" FontAttributes="Bold" FontSize="20" HorizontalOptions="CenterAndExpand" Margin="0,10,0,20" />
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Picker x:Name="fullNamePicker" Grid.Row="0" Grid.Column="0" Title="Full Name" ItemsSource="{Binding FullNameOptions}" SelectedItem="{Binding FilterGraduate.FullName}" TitleColor="Black" BackgroundColor="Black" />
+
+            <Picker x:Name="facultyPicker" Grid.Row="0" Grid.Column="1" Title="Faculty" ItemsSource="{Binding FacultyOptions}" SelectedItem="{Binding FilterGraduate.Faculty}" TitleColor="Black" BackgroundColor="Black" />
+
+            <Picker x:Name="departmentPicker" Grid.Row="0" Grid.Column="2" Title="Department" ItemsSource="{Binding DepartmentOptions}" SelectedItem="{Binding FilterGraduate.Department}" TitleColor="Black" BackgroundColor="Black" />
+
+            <Picker x:Name="specialtyPicker" Grid.Row="1" Grid.Column="0" Title="Specialty" ItemsSource="{Binding SpecialtyOptions}" SelectedItem="{Binding FilterGraduate.Specialty}" TitleColor="Black" BackgroundColor="Black" />
+
+            <Picker x:Name="admissionDatePicker" Grid.Row="1" Grid.Column="1" Title="Admission Year" ItemsSource="{Binding AdmissionDateOptions}" SelectedItem="{Binding FilterGraduate.AdmissionDateAsString}" TitleColor="Black" BackgroundColor="Black" />
+
+            <Picker x:Name="graduationDatePicker" Grid.Row="1" Grid.Column="2" Title="Graduation Year" ItemsSource="{Binding GraduationDateOptions}" SelectedItem="{Binding FilterGraduate.GraduationDateAsString}" TitleColor="Black" BackgroundColor="Black" />
+        </Grid>
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+            <RadioButton x:Name="LINQButton" Content="LINQ" GroupName="Options" IsChecked="True" TextColor="Black"/>
+            <RadioButton x:Name="DOMButton" Content="DOM" GroupName="Options" TextColor="Black"/>
+            <RadioButton x:Name="SAXButton" Content="SAX" GroupName="Options" TextColor="Black"/>
+        </StackLayout>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <StackLayout Grid.Row="0" Grid.Column="0" HorizontalOptions="FillAndExpand">
+                <Button Text="Save HTML" TextColor="Black" Clicked="SaveHTMLButton_Clicked" Margin="0,20,0,0" />
+            </StackLayout>
+
+            <StackLayout Grid.Row="0" Grid.Column="1" HorizontalOptions="FillAndExpand">
+                <Button Text="Search" TextColor="Black" Clicked="SearchButton_Clicked" Margin="0,20,0,0" />
+            </StackLayout>
+
+            <StackLayout Grid.Row="0" Grid.Column="2" HorizontalOptions="FillAndExpand">
+                <Button Text="Clear" TextColor="Black" Clicked="ClearButton_Clicked" Margin="0,20,0,0" />
+            </StackLayout>
+        </Grid>
+
+        <ListView x:Name="graduateCollectionView" VerticalOptions="FillAndExpand" HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame BackgroundColor="White" CornerRadius="5" Margin="10" BorderColor="White">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="80" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="2" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="2" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="2" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="2" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="2" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="2" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="2" />
+                                </Grid.ColumnDefinitions>
+
+                                <StackLayout Grid.Row="0" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center">
+                                    <Label Text="Full Name" TextColor="Gray" HorizontalOptions="Center" />
+                                    <Label Text="{Binding FullName}" TextColor="Black" HorizontalOptions="Center" />
+                                </StackLayout>
+
+                                <BoxView BackgroundColor="Gray" HeightRequest="60" WidthRequest="2" Grid.Row="0" Grid.Column="1" />
+
+                                <StackLayout Grid.Row="0" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="Center">
+                                    <Label Text="Faculty" TextColor="Gray" HorizontalOptions="Center" />
+                                    <Label Text="{Binding Faculty}" TextColor="Black" HorizontalOptions="Center" />
+                                </StackLayout>
+
+                                <BoxView BackgroundColor="Gray" HeightRequest="60" WidthRequest="2" Grid.Row="0" Grid.Column="3" />
+
+                                <StackLayout Grid.Row="0" Grid.Column="4" VerticalOptions="Center" HorizontalOptions="Center">
+                                    <Label Text="Department" TextColor="Gray" HorizontalOptions="Center" />
+                                    <Label Text="{Binding Department}" TextColor="Black" HorizontalOptions="Center" />
+                                </StackLayout>
+
+                                <BoxView BackgroundColor="Gray" HeightRequest="60" WidthRequest="2" Grid.Row="0" Grid.Column="5" />
+
+                                <StackLayout Grid.Row="0" Grid.Column="6" VerticalOptions="Center" HorizontalOptions="Center">
+                                    <Label Text="Specialty" TextColor="Gray" HorizontalOptions="Center" />
+                                    <Label Text="{Binding Specialty}" TextColor="Black" HorizontalOptions="Center" />
+                                </StackLayout>
+
+                                <BoxView BackgroundColor="Gray" HeightRequest="60" WidthRequest="2" Grid.Row="0" Grid.Column="7" />
+
+                                <StackLayout Grid.Row="0" Grid.Column="8" VerticalOptions="Center" HorizontalOptions="Center">
+                                    <Label Text="Admission Date" TextColor="Gray" HorizontalOptions="Center" />
+                                    <Label Text="{Binding AdmissionDate, StringFormat='{0:dd/MM/yyyy}'}" TextColor="Black" HorizontalOptions="Center" />
+                                </StackLayout>
+
+                                <BoxView BackgroundColor="Gray" HeightRequest="60" WidthRequest="2" Grid.Row="0" Grid.Column="9" />
+
+                                <StackLayout Grid.Row="0" Grid.Column="10" VerticalOptions="Center" HorizontalOptions="Center">
+                                    <Label Text="Graduation Date" TextColor="Gray" HorizontalOptions="Center" />
+                                    <Label Text="{Binding GraduationDate, StringFormat='{0:dd/MM/yyyy}'}" TextColor="Black" HorizontalOptions="Center" />
+                                </StackLayout>
+
+                                <BoxView BackgroundColor="Gray" HeightRequest="60" WidthRequest="2" Grid.Row="0" Grid.Column="11" />
+
+                                <StackLayout Grid.Row="0" Grid.Column="12" VerticalOptions="Center" HorizontalOptions="Center">
+                                    <Label Text="Job" TextColor="Gray" HorizontalOptions="Center" />
+                                    <Label Text="{Binding JobHistory[0].Position}" TextColor="Black" HorizontalOptions="Center" />
+                                    <Label Text="{Binding JobHistory[0].Employer}" TextColor="Black" HorizontalOptions="Center" />
+                                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                        <Label Text="{Binding JobHistory[0].StartDate, StringFormat='{0:yyyy}'}" TextColor="Black" />
+                                        <Label Text="-" TextColor="Black" />
+                                        <Label Text="{Binding JobHistory[0].EndDate, StringFormat='{0:yyyy}'}" TextColor="Black" />
+                                    </StackLayout>
+                                </StackLayout>
+                            </Grid>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>   
+    </StackLayout>
+</ContentPage>

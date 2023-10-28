@@ -1,0 +1,632 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<graduates>
+  <graduate
+    full_name="Іванов Іван Іванович"
+    faculty="Факультет інформатики"
+    department="Кафедра програмування"
+    specialty="Інформаційні технології"
+    admission_date="2020-09-01"
+    graduation_date="2025-06-30">
+    <job_history
+      position="Програміст"
+      employer="ТОВ Компанія ІТ"
+      start_date="2025-07-01"
+      end_date="2027-12-31">
+    </job_history>
+  </graduate>
+  
+  <graduate
+    full_name="Петров Петро Петрович"
+    faculty="Факультет математики"
+    department="Кафедра статистики"
+    specialty="Математика"
+    admission_date="2019-09-01"
+    graduation_date="2024-06-30">
+    <job_history
+      position="Викладач"
+      employer="Університет 'Математика'"
+      start_date="2024-07-01"
+      end_date="2027-12-31">
+    </job_history>
+  </graduate>
+
+  <graduate
+    full_name="Сидоров Сидір Сидорович"
+    faculty="Факультет інформатики"
+    department="Кафедра програмування"
+    specialty="Інформаційні технології"
+    admission_date="2021-09-01"
+    graduation_date="2026-06-30">
+    <job_history
+      position="Системний аналітик"
+      employer="ТОВ Софтвер Сервіс"
+      start_date="2026-07-01"
+      end_date="2028-12-31">
+    </job_history>
+  </graduate>
+
+  <graduate
+    full_name="Коваленко Олена Петрівна"
+    faculty="Факультет біології"
+    department="Кафедра біохімії"
+    specialty="Біологія"
+    admission_date="2018-09-01"
+    graduation_date="2023-06-30">
+    <job_history
+      position="Дослідник"
+      employer="Національна Академія Наук"
+      start_date="2023-07-01"
+      end_date="2026-12-31">
+    </job_history>
+  </graduate>
+
+  <graduate
+    full_name="Ковальчук Марія Олександрівна"
+    faculty="Факультет інформатики"
+    department="Кафедра програмування"
+    specialty="Інформаційні технології"
+    admission_date="2022-09-01"
+    graduation_date="2027-06-30">
+    <job_history
+      position="Розробник"
+      employer="ТОВ Програмування-Плюс"
+      start_date="2027-07-01"
+      end_date="2029-12-31">
+    </job_history>
+  </graduate>
+
+  <graduate
+    full_name="Лисенко Ігор Васильович"
+    faculty="Факультет математики"
+    department="Кафедра статистики"
+    specialty="Математика"
+    admission_date="2021-09-01"
+    graduation_date="2026-06-30">
+    <job_history
+      position="Дослідник"
+      employer="Національний Університет"
+      start_date="2026-07-01"
+      end_date="2030-12-31">
+    </job_history>
+  </graduate>
+
+  <graduate
+    full_name="Шевченко Оксана Миколаївна"
+    faculty="Факультет інформатики"
+    department="Кафедра програмування"
+    specialty="Інформаційні технології"
+    admission_date="2023-09-01"
+    graduation_date="2028-06-30">
+    <job_history
+      position="Системний аналітик"
+      employer="ТОВ ІТ-Розвиток"
+      start_date="2028-07-01"
+      end_date="2031-12-31">
+    </job_history>
+  </graduate>
+
+  <graduate
+    full_name="Гончаренко Віталій Васильович"
+    faculty="Факультет інформатики"
+    department="Кафедра програмування"
+    specialty="Інформаційні технології"
+    admission_date="2020-09-01"
+    graduation_date="2025-06-30">
+    <job_history
+      position="Програміст"
+      employer="ТОВ ІТ-Сервіс"
+      start_date="2025-07-01"
+      end_date="2027-12-31">
+    </job_history>
+  </graduate>
+
+  <graduate
+    full_name="Кравчук Анна Петрівна"
+    faculty="Факультет математики"
+    department="Кафедра статистики"
+    specialty="Математика"
+    admission_date="2019-09-01"
+    graduation_date="2024-06-30">
+    <job_history
+      position="Викладач"
+      employer="Університет 'Математика'"
+      start_date="2024-07-01"
+      end_date="2027-12-31">
+    </job_history>
+  </graduate>
+
+  <graduate
+    full_name="Мельник Юрій Олександрович"
+    faculty="Факультет інформатики"
+    department="Кафедра програмування"
+    specialty="Інформаційні технології"
+    admission_date="2021-09-01"
+    graduation_date="2026-06-30">
+    <job_history
+      position="Системний аналітик"
+      employer="ТОВ Софтвер Сервіс"
+      start_date="2026-07-01"
+      end_date="2028-12-31">
+    </job_history>
+  </graduate>
+
+  <graduate
+    full_name="Савченко Марина Миколаївна"
+    faculty="Факультет біології"
+    department="Кафедра біохімії"
+    specialty="Біологія"
+    admission_date="2018-09-01"
+    graduation_date="2023-06-30">
+    <job_history
+      position="Дослідник"
+      employer="Національна Академія Наук"
+      start_date="2023-07-01"
+      end_date="2026-12-31">
+    </job_history>
+  </graduate>
+
+  <graduate
+    full_name="Шевчук Валентина Вікторівна"
+    faculty="Факультет інформатики"
+    department="Кафедра програмування"
+    specialty="Інформаційні технології"
+    admission_date="2019-09-01"
+    graduation_date="2024-06-30">
+    <job_history
+      position="Розробник"
+      employer="ТОВ Програмування-Плюс"
+      start_date="2024-07-01"
+      end_date="2027-12-31">
+    </job_history>
+  </graduate>
+
+  <graduate
+    full_name="Мороз Олег Васильович"
+    faculty="Факультет математики"
+    department="Кафедра статистики"
+    specialty="Математика"
+    admission_date="2021-09-01"
+    graduation_date="2026-06-30">
+    <job_history
+      position="Дослідник"
+      employer="Національний Університет"
+      start_date="2026-07-01"
+      end_date="2030-12-31">
+    </job_history>
+  </graduate>
+
+  <graduate
+    full_name="Савченко Оксана Миколаївна"
+    faculty="Факультет інформатики"
+    department="Кафедра програмування"
+    specialty="Інформаційні технології"
+    admission_date="2023-09-01"
+    graduation_date="2028-06-30">
+    <job_history
+      position="Системний аналітик"
+      employer="ТОВ ІТ-Розвиток"
+      start_date="2028-07-01"
+      end_date="2031-12-31">
+    </job_history>
+  </graduate>
+
+  <graduate
+    full_name="Мельник Олексій Олександрович"
+    faculty="Факультет біології"
+    department="Кафедра біохімії"
+    specialty="Біологія"
+    admission_date="2017-09-01"
+    graduation_date="2022-06-30">
+    <job_history
+      position="Дослідник"
+      employer="Національна Академія Наук"
+      start_date="2022-07-01"
+      end_date="2025-12-31">
+    </job_history>
+  </graduate>
+
+  <graduate
+    full_name="Лисенко Ігор Васильович"
+    faculty="Факультет інформатики"
+    department="Кафедра програмування"
+    specialty="Інформаційні технології"
+    admission_date="2019-09-01"
+    graduation_date="2024-06-30">
+    <job_history
+      position="Розробник"
+      employer="ТОВ Програмування-Плюс"
+      start_date="2024-07-01"
+      end_date="2027-12-31">
+    </job_history>
+  </graduate>
+
+  <graduate
+    full_name="Кравчук Анна Петрівна"
+    faculty="Факультет математики"
+    department="Кафедра статистики"
+    specialty="Математика"
+    admission_date="2019-09-01"
+    graduation_date="2024-06-30">
+    <job_history
+      position="Викладач"
+      employer="Університет 'Математика'"
+      start_date="2024-07-01"
+      end_date="2027-12-31">
+    </job_history>
+  </graduate>
+
+  <graduate
+    full_name="Мельник Юрій Олександрович"
+    faculty="Факультет інформатики"
+    department="Кафедра програмування"
+    specialty="Інформаційні технології"
+    admission_date="2021-09-01"
+    graduation_date="2026-06-30">
+    <job_history
+      position="Системний аналітик"
+      employer="ТОВ Софтвер Сервіс"
+      start_date="2026-07-01"
+      end_date="2028-12-31">
+    </job_history>
+  </graduate>
+
+  <graduate
+    full_name="Савченко Марина Миколаївна"
+    faculty="Факультет біології"
+    department="Кафедра біохімії"
+    specialty="Біологія"
+    admission_date="2018-09-01"
+    graduation_date="2023-06-30">
+    <job_history
+      position="Дослідник"
+      employer="Національна Академія Наук"
+      start_date="2023-07-01"
+      end_date="2026-12-31">
+    </job_history>
+  </graduate>
+  
+  <graduate
+    full_name="Коваленко Олег Олександрович"
+    faculty="Факультет інформатики"
+    department="Кафедра програмування"
+    specialty="Інформаційні технології"
+    admission_date="2020-09-01"
+    graduation_date="2025-06-30">
+    <job_history
+      position="Програміст"
+      employer="ТОВ ІТ-Сервіс"
+      start_date="2025-07-01"
+      end_date="2027-12-31">
+    </job_history>
+  </graduate>
+
+  <graduate
+    full_name="Король Людмила Миколаївна"
+    faculty="Факультет математики"
+    department="Кафедра статистики"
+    specialty="Математика"
+    admission_date="2019-09-01"
+    graduation_date="2024-06-30">
+    <job_history
+      position="Викладач"
+      employer="Університет 'Математика'"
+      start_date="2024-07-01"
+      end_date="2027-12-31">
+    </job_history>
+  </graduate>
+
+  <graduate
+    full_name="Петренко Андрій Олександрович"
+    faculty="Факультет інформатики"
+    department="Кафедра програмування"
+    specialty="Інформаційні технології"
+    admission_date="2021-09-01"
+    graduation_date="2026-06-30">
+    <job_history
+      position="Системний аналітик"
+      employer="ТОВ Софтвер Сервіс"
+      start_date="2026-07-01"
+      end_date="2028-12-31">
+    </job_history>
+  </graduate>
+
+  <graduate
+    full_name="Шевченко Анна Олександрівна"
+    faculty="Факультет біології"
+    department="Кафедра біохімії"
+    specialty="Біологія"
+    admission_date="2018-09-01"
+    graduation_date="2023-06-30">
+    <job_history
+      position="Дослідник"
+      employer="Національна Академія Наук"
+      start_date="2023-07-01"
+      end_date="2026-12-31">
+    </job_history>
+  </graduate>
+
+  <graduate
+    full_name="Мороз Олег Миколаївич"
+    faculty="Факультет інформатики"
+    department="Кафедра програмування"
+    specialty="Інформаційні технології"
+    admission_date="2019-09-01"
+    graduation_date="2024-06-30">
+    <job_history
+      position="Розробник"
+      employer="ТОВ Програмування-Плюс"
+      start_date="2024-07-01"
+      end_date="2027-12-31">
+    </job_history>
+  </graduate>
+
+  <graduate
+    full_name="Сидорова Тетяна Віталіївна"
+    faculty="Факультет математики"
+    department="Кафедра статистики"
+    specialty="Математика"
+    admission_date="2021-09-01"
+    graduation_date="2026-06-30">
+    <job_history
+      position="Викладач"
+      employer="Університет 'Математика'"
+      start_date="2026-07-01"
+      end_date="2029-12-31">
+    </job_history>
+  </graduate>
+
+  <graduate
+    full_name="Коваль Олександр Іванович"
+    faculty="Факультет інформатики"
+    department="Кафедра програмування"
+    specialty="Інформаційні технології"
+    admission_date="2023-09-01"
+    graduation_date="2028-06-30">
+    <job_history
+      position="Системний аналітик"
+      employer="ТОВ ІТ-Розвиток"
+      start_date="2028-07-01"
+      end_date="2031-12-31">
+    </job_history>
+  </graduate>
+
+  <graduate
+    full_name="Сидоренко Максим Петрович"
+    faculty="Факультет біології"
+    department="Кафедра біохімії"
+    specialty="Біологія"
+    admission_date="2017-09-01"
+    graduation_date="2022-06-30">
+    <job_history
+      position="Дослідник"
+      employer="Національна Академія Наук"
+      start_date="2022-07-01"
+      end_date="2025-12-31">
+    </job_history>
+  </graduate>
+
+  <graduate
+    full_name="Петренко Віктор Миколайович"
+    faculty="Факультет інформатики"
+    department="Кафедра програмування"
+    specialty="Інформаційні технології"
+    admission_date="2020-09-01"
+    graduation_date="2025-06-30">
+    <job_history
+      position="Програміст"
+      employer="ТОВ ІТ-Сервіс"
+      start_date="2025-07-01"
+      end_date="2027-12-31">
+    </job_history>
+  </graduate>
+
+  <graduate
+    full_name="Сидорова Марія Іванівна"
+    faculty="Факультет математики"
+    department="Кафедра статистики"
+    specialty="Математика"
+    admission_date="2019-09-01"
+    graduation_date="2024-06-30">
+    <job_history
+      position="Викладач"
+      employer="Університет 'Математика'"
+      start_date="2024-07-01"
+      end_date="2027-12-31">
+    </job_history>
+  </graduate>
+
+  <graduate
+    full_name="Коваленко Олег Олександрович"
+    faculty="Факультет інформатики"
+    department="Кафедра програмування"
+    specialty="Інформаційні технології"
+    admission_date="2021-09-01"
+    graduation_date="2026-06-30">
+    <job_history
+      position="Системний аналітик"
+      employer="ТОВ Софтвер Сервіс"
+      start_date="2026-07-01"
+      end_date="2028-12-31">
+    </job_history>
+  </graduate>
+
+  <graduate
+    full_name="Мороз Олег Миколайович"
+    faculty="Факультет інформатики"
+    department="Кафедра програмування"
+    specialty="Інформаційні технології"
+    admission_date="2019-09-01"
+    graduation_date="2024-06-30">
+    <job_history
+      position="Розробник"
+      employer="ТОВ Програмування-Плюс"
+      start_date="2024-07-01"
+      end_date="2027-12-31">
+    </job_history>
+  </graduate>
+
+  <graduate
+    full_name="Савченко Оксана Миколаївна"
+    faculty="Факультет математики"
+    department="Кафедра статистики"
+    specialty="Математика"
+    admission_date="2023-09-01"
+    graduation_date="2028-06-30">
+    <job_history
+      position="Викладач"
+      employer="Університет 'Математика'"
+      start_date="2028-07-01"
+      end_date="2030-12-31">
+    </job_history>
+  </graduate>
+
+  <graduate
+    full_name="Мельник Олександр Вікторович"
+    faculty="Факультет інформатики"
+    department="Кафедра програмування"
+    specialty="Інформаційні технології"
+    admission_date="2022-09-01"
+    graduation_date="2027-06-30">
+    <job_history
+      position="Системний аналітик"
+      employer="ТОВ ІТ-Розвиток"
+      start_date="2027-07-01"
+      end_date="2030-12-31">
+    </job_history>
+  </graduate>
+
+  <graduate
+    full_name="Коваль Олександр Іванович"
+    faculty="Факультет інформатики"
+    department="Кафедра програмування"
+    specialty="Інформаційні технології"
+    admission_date="2023-09-01"
+    graduation_date="2028-06-30">
+    <job_history
+      position="Системний аналітик"
+      employer="ТОВ ІТ-Розвиток"
+      start_date="2028-07-01"
+      end_date="2031-12-31">
+    </job_history>
+  </graduate>
+
+  <graduate
+    full_name="Сидоренко Максим Петрович"
+    faculty="Факультет біології"
+    department="Кафедра біохімії"
+    specialty="Біологія"
+    admission_date="2017-09-01"
+    graduation_date="2022-06-30">
+    <job_history
+      position="Дослідник"
+      employer="Національна Академія Наук"
+      start_date="2022-07-01"
+      end_date="2025-12-31">
+    </job_history>
+  </graduate>
+
+  <graduate
+    full_name="Шевчук Оксана Миколаївна"
+    faculty="Факультет інформатики"
+    department="Кафедра програмування"
+    specialty="Інформаційні технології"
+    admission_date="2020-09-01"
+    graduation_date="2025-06-30">
+    <job_history
+      position="Програміст"
+      employer="ТОВ ІТ-Сервіс"
+      start_date="2025-07-01"
+      end_date="2027-12-31">
+    </job_history>
+  </graduate>
+
+  <graduate
+    full_name="Кравчук Віталій Олександрович"
+    faculty="Факультет математики"
+    department="Кафедра статистики"
+    specialty="Математика"
+    admission_date="2019-09-01"
+    graduation_date="2024-06-30">
+    <job_history
+      position="Викладач"
+      employer="Університет 'Математика'"
+      start_date="2024-07-01"
+      end_date="2027-12-31">
+    </job_history>
+  </graduate>
+
+  <graduate
+    full_name="Петренко Віталій Миколайович"
+    faculty="Факультет інформатики"
+    department="Кафедра програмування"
+    specialty="Інформаційні технології"
+    admission_date="2021-09-01"
+    graduation_date="2026-06-30">
+    <job_history
+      position="Системний аналітик"
+      employer="ТОВ Софтвер Сервіс"
+      start_date="2026-07-01"
+      end_date="2028-12-31">
+    </job_history>
+  </graduate>
+
+  <graduate
+    full_name="Гончаренко Марія Олександрівна"
+    faculty="Факультет інформатики"
+    department="Кафедра програмування"
+    specialty="Інформаційні технології"
+    admission_date="2019-09-01"
+    graduation_date="2024-06-30">
+    <job_history
+      position="Розробник"
+      employer="ТОВ Програмування-Плюс"
+      start_date="2024-07-01"
+      end_date="2027-12-31">
+    </job_history>
+  </graduate>
+
+  <graduate
+    full_name="Мороз Василь Васильович"
+    faculty="Факультет математики"
+    department="Кафедра статистики"
+    specialty="Математика"
+    admission_date="2023-09-01"
+    graduation_date="2028-06-30">
+    <job_history
+      position="Викладач"
+      employer="Університет 'Математика'"
+      start_date="2028-07-01"
+      end_date="2030-12-31">
+    </job_history>
+  </graduate>
+
+  <graduate
+    full_name="Коваленко Віктор Вікторович"
+    faculty="Факультет інформатики"
+    department="Кафедра програмування"
+    specialty="Інформаційні технології"
+    admission_date="2022-09-01"
+    graduation_date="2027-06-30">
+    <job_history
+      position="Системний аналітик"
+      employer="ТОВ ІТ-Розвиток"
+      start_date="2027-07-01"
+      end_date="2030-12-31">
+    </job_history>
+  </graduate>
+
+  <graduate
+    full_name="Сидоренко Василь Миколайович"
+    faculty="Факультет біології"
+    department="Кафедра біохімії"
+    specialty="Біологія"
+    admission_date="2017-09-01"
+    graduation_date="2022-06-30">
+    <job_history
+      position="Дослідник"
+      employer="Національна Академія Наук"
+      start_date="2022-07-01"
+      end_date="2025-12-31">
+    </job_history>
+  </graduate>
+</graduates>
